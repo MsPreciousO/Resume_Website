@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,54 @@
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>Document</title>
 </head>
+
 <body>
     <hr>
     <h1>Contact Info</h1>
+    <hr>
+    <table></table>
     <table>
-        <thead><tr></tr></thead>
+        <tbody>
+            <tr>
+                <td>Name:</td>
+                <td>Opal Mullings</td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td>mullings1968_creations@yahoo.ca</td>
+            </tr>
+            <tr>
+                <td>Tel:</td>
+                <td>416-618-6250</td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td>17 Frostbite Lane Brampton ON L6R 3L6</td>
+            </tr>
+        </tbody>
     </table>
-      
-    <table bordergit="1px">
-        <thead><tr><p> </p>
-        <p></p></tr></thead> <tbody></tbody> 
- <th>
- <tr> <td>Name</td>
- <td>Opal Mullings</td> </tr>
- 
- <tr><td>Email</td>
- <td>mullings1968_creations@yahoo.ca</td></tr>>
- 
- <tr><td>Tel</td>
- <td>416-618-6250</td></tr>
- 
- <tr><td>Address</td>
- <td>17 Frostbite Lane Brampton ON L6R3L6 
- </td></tr>
- </th>
-         </tbody>
-     </table>
-     <hr>   
+    <hr>
+
+    <form action="mailto:mullings1968_creations@yahoo.ca" enctype="text/plain" method="POST">
+        <p>
+            <label for="textinput">Name:</label>
+            <input placeholder="Your First and Last name" id="textinput" name="q" required></p>
+        <p>
+            <label for="email">Email:</label>
+            <input placeholder="youremail@rmail.com" id="email" name="q" required></p>
+        <p> 
+            <label for="Info"></label>
+            <textarea rows="10" cols="30" id="name"></textarea>
+        </p>
+
+
+        <!-- <p>
+            <Button type="submit">
+                SEND form
+            </Button> 
+        </p> -->
+
+        <input type="submit" value="SEND">
 </body>
+
 </html>
